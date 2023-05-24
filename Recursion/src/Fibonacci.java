@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Fibonacci {
+    // This is a recursive algo for fibonacci problem
     public static void main(String[] args) {
         System.out.print("Enter the number for which you want fibonacci sum: ");
         Scanner in = new Scanner(System.in);
