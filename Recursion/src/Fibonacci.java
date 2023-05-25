@@ -7,8 +7,11 @@ public class Fibonacci {
         Scanner in = new Scanner(System.in);
         int number = in.nextInt();
         System.out.println();
-        int answer = FibonacciNum(number);
-        System.out.println(answer);
+        System.out.println(fiboFormula(number));
+    }
+
+    static long fiboFormula(int n) {
+        return (long) (Math.pow((1 + Math.sqrt(5)) / 2, n) / Math.sqrt(5));
     }
 
     static int FibonacciNum(int n) {
